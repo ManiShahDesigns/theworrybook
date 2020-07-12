@@ -1,0 +1,35 @@
+{
+  "name": "the-worry-book",
+  "version": "1.0.0",
+  "description": "A place to leave your worries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManiShahDesigns/theworrybook.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "postgres",
+    "nodejs",
+    "pern"
+  ],
+  "author": "Mani Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManiShahDesigns/theworrybook/issues"
+  },
+  "homepage": "https://github.com/ManiShahDesigns/theworrybook#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
